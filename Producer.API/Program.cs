@@ -11,6 +11,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IRabitMQProducer, RabitMQProducer>();
+
 //Add the COnfiguration
 ConfigurationManager configuration = builder.Configuration;
 
