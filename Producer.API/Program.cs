@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Producer.API.Data;
+using Producer.API.RabbitMq;
+using Producer.API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
