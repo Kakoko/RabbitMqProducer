@@ -11,7 +11,7 @@ namespace Producer.API.Data
         
         }
 
-        public DbSet<Product> Properties { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
     
